@@ -1,0 +1,11 @@
+/* Importa a fonte Raleway com peso 500 */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+/* Estilos para o corpo da página */
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important; /* Define a fonte para Raleway e serif como fonte de fallback */
+  -webkit-font-smoothing: antialiased; /* Suavização de fonte para Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Suavização de fonte para Firefox */
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); /* Gradiente linear para o plano de fundo */
+}

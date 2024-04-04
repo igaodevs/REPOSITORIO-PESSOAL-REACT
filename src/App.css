@@ -1,0 +1,44 @@
+/* Base da Aplicação */
+.App {
+  text-align: center;
+}
+
+/* Logo da Aplicação */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animação do Logo da Aplicação */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: spin 20s linear infinite;
+  }
+}
+
+/* Cabeçalho da Aplicação */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Links da Aplicação */
+.App-link {
+  color: #61dafb;
+}
+
+/* Animação de rotação do Logo */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
